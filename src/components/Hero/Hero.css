@@ -1,0 +1,106 @@
+
+.lg-hero-slide-area {
+    background: #333333;
+    padding: 60px 0 25px;
+}
+.lg-hero-slide-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.lg-hero-left-slide {
+    flex: 0 0 50%;
+}
+.lg-hero-left-slide p {
+    color: #FFFFFF;
+    line-height: 1.2;
+    max-width: 380px;
+    margin: 20px 0 25px;
+}
+.lg-hero-right-slide {
+    flex: 0 0 50%;
+    text-align: center;
+}
+
+.lg-hero-slide-content  .button a {
+    background-color: #ecbe38;
+    color: #333333;
+    font-size: 20px;
+    width: 220px;
+    text-align: center;
+    padding: 7px 10px;
+    margin-bottom: 25px;
+}
+.lg-hero-slide-content  .button a:hover {
+    background-color: #FFFFFF;
+    color: #ecbe38;
+}
+
+.lg-hero-left-bottom-content {
+    display: flex;
+    align-items: center;
+}
+
+.lg-hero-left-btm-img,.lg-hero-left-btm-content ul {
+    display: flex;
+    align-items: center;
+}
+.lg-hero-left-btm-img img:first-child {
+    margin-left: 0;
+}
+.lg-hero-left-btm-img img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -5px;
+}
+.lg-hero-left-btm-content {
+    margin-left: 10px;
+}
+.lg-hero-left-btm-content li {
+    color: #fbcc17;
+}
+.lg-hero-left-btm-content p {
+    font-family: 'Helvetica Neue LT Std';
+    font-size: 14px;
+    margin: 0;
+}
+
+
+.lg-hero-bottom-area {
+    background-color: #f2d03a;
+    padding: 40px 0;
+}
+.lg-hero-bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lg-hero-bottom-content p {
+    font-family: 'Helvetica Neue LT Std';
+    font-size: 18px;
+}
+.lg-hero-bottom-right-content {
+    display: flex;
+    align-items: center;
+}
+.lg-hero-bottom-right-content .button a {
+    background-color: #333333;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.lg-hero-bottom-right-content .button a:hover {
+    background: #ffffff;
+    color: #333333;
+}
+.lg-hero-bottom-right-content .button:first-child a {
+    background-color: #FFFFFF;
+    color: #333333;
+    margin-right: 20px;
+}
+.lg-hero-bottom-right-content .button:first-child a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}

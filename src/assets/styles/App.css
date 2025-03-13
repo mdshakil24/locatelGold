@@ -59,6 +59,11 @@ h2{
     line-height: normal;
     background-color: #333333;
     padding: 10px 25px;
+    transition: .3s;
+}
+.button a:hover,.button button:hover {
+    background-color: #f2d03a;
+    color: #FFFFFF;
 }
 
 
@@ -90,6 +95,10 @@ h2{
     text-transform: capitalize;
     line-height: normal;
     margin-left: 40px;
+    transition: .3s;
+}
+.lg-navbar ul li a:hover {
+    color: #f2d03a;
 }
 
 
@@ -114,6 +123,10 @@ h2{
     background-color: #FFFFFF;
     color: #333333;
 }
+.lg-empieza-content .button a:hover {
+    background-color: #f2d03a;
+    color: #FFFFFF;
+}
 
 
 /*===== End Empieza Area Css =====*/
@@ -130,7 +143,6 @@ h2{
 .lg-footer-area {
     background: #333333;
     padding: 40px 0;
-
 }
 
 .lg-footer-top-content {
@@ -145,6 +157,7 @@ h2{
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
+    transition: .3s;
 }
 .single-top-content p {
     max-width: 370px;
@@ -175,6 +188,11 @@ h2{
     font-size: 30px;
     color: #FFFFFF;
     margin-left: 65px;
+    transition: .3s;
+}
+
+.footer-bottom-right-content ul li a:hover,.single-top-content a:hover {
+    color: #f2d03a;
 }
 
 
