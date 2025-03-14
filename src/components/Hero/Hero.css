@@ -67,7 +67,10 @@
     font-size: 14px;
     margin: 0;
 }
-
+.lg-hero-right-slide img {
+    width: 310px;
+    height: auto;
+}
 
 .lg-hero-bottom-area {
     background-color: #f2d03a;

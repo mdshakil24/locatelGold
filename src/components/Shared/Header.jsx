@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 export default function Header() {
+  const [humberOpen,setHumberOpen] = useState(false);
+  const [isOpenMenu,setOpenMenu] = useState(false);
   return (
     <header className="header-area">
       <div className="container">
@@ -11,7 +13,7 @@ export default function Header() {
           </div>
 
           <nav className="lg-navbar">
-            <ul>
+            <ul className={`${isOpenMenu ? 'showMenu' : ''}`}>
               <li>
                 <NavLink to="#" end>
                   Beneficios
@@ -34,6 +36,16 @@ export default function Header() {
               </li>
             </ul>
           </nav>
+
+          <div onClick={() => {setOpenMenu(!isOpenMenu)}} className='mobile-menu-icon'>
+            <div onClick={() => {setHumberOpen(!humberOpen)}} className={`all-p-humber ${humberOpen ? 'open' : ''}`}>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+
         </div>
       </div>
     </header>
