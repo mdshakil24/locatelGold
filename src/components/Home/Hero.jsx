@@ -1,5 +1,4 @@
 import { IoMdStar } from "react-icons/io";
-import "./Hero.css";
 
 const Hero = () => {
   return (

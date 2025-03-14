@@ -1,6 +1,5 @@
 import { useState } from "react";
-import Accordion from "../../Accordion/Accordion";
-import "./faq.css";
+import Accordion from "../Accordion/Accordion";
 
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(0); // Default open item is the first

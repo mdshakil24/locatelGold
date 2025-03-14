@@ -4,7 +4,7 @@ export default function InfoTable() {
   return (
     <section className="info--table">
       <div className="container mx-auto">
-        <table class="pricing-table">
+        <table className="pricing-table">
           <thead>
             <tr>
               <th>Plan</th>
