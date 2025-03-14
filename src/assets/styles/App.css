@@ -582,7 +582,7 @@ p {
     color: #333333;
 }
 
-.why-choose-content .subtitle {
+.why-choose-text-content .subtitle {
     font-family: 'Helvetica Neue LT Std';
     font-weight: 400;
     font-size: 16px;
@@ -591,7 +591,7 @@ p {
     margin-bottom: 30px;
 }
 
-.why-choose-content .description {
+.why-choose-text-content .description {
     width: 85%;
     margin: 0 auto;
     line-height: 1.25;
@@ -635,14 +635,88 @@ p {
 
 /*===== End Locatel Gold Area Css =====*/
 
+
+
+/*===== Start Elegir Locatel area Css =====*/
+.elegir-locatel-area {
+    padding-top: 40px;
+}
+.elegir-locatel-area .why-choose-text-content {
+    margin-bottom: 30px;
+}
+.info-top-area {
+    margin-top: 35px;
+}
+.info-top-area .info-top-content:last-child {
+    padding-bottom: 25px;
+}
+.info-top-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.single-info-top-content {
+    display: flex;
+    align-items: center;
+    margin: 3px 5px;
+}
+.single-info-top-content p {
+    font-family: 'Helvetica Neue LT Std';
+    font-size: 17px;
+    margin-left: 8px;
+}
+
+.lg-plans-listing {
+    background-color: #333333;
+    padding: 25px 0;
+}
+.lg-plans-listing-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.single-lg-plans-listing {
+    display: flex;
+    align-items: center;
+}
+.lg-plans-listing span {
+    font-family: 'Helvetica Neue LT Std';
+    font-size: 14px;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.lg-plans-listing p {
+    font-family: 'Helvetica Neue LT Std';
+    font-size: 14px;
+    color: #FFFFFF;
+    max-width: 260px;
+}
+
+/*===== End Elegir Locatel area Css =====*/
+
+
 /*===== Start coding for infotable Css =====*/
 
 .info--table {
     background-color: #f8f8f8;
-    padding-top: 60px;
+    padding-top: 20px;
     padding-bottom: 40px;
 }
-
+.subtitle2 {
+    font-family: 'Helvetica Neue LT Std';
+    font-size: 16px;
+    padding-left: 70px;
+}
 .info--table .pricing-table {
     width: 100%;
     max-width: 820px;
@@ -822,6 +896,9 @@ td {
     }
     .card-text-container h3, .card-text-container p {
         font-size: 15px;
+    }
+    .subtitle2 {
+        padding-left: 30px;
     }
 
 }
@@ -1015,6 +1092,12 @@ td {
     .additional--wrapper {
         text-align: center;
     }
+    .lg-plans-listing-content {
+        flex-direction: column;
+    }
+    .lg-plans-listing-content:last-child .single-lg-plans-listing {
+        margin-bottom: 15px;
+    }
 
 }
 
@@ -1064,6 +1147,9 @@ td {
     .faq--section {
         padding-top: 45px;
     }
+    .elegir-locatel-area {
+        padding-top: 25px;
+    }
     .cards-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -1078,8 +1164,18 @@ td {
         margin-top: 10px;
         margin-bottom: 20px;
     }
-
-
+    .info-table-content {
+        overflow-x: scroll;
+    }
+    .info--table .pricing-table {
+        width: 550px;
+    }
+    .subtitle2 {
+        padding-left: 0;
+    }
+    .why-choose-loctel .button button {
+        font-size: 17px;
+    }
 
 }
 
@@ -1151,4 +1247,14 @@ td {
         margin: 0 auto;
         display: block;
     }
+    .lg-plans-listing p {
+        max-width: 220px;
+    }
+    .single-info-top-content p {
+        font-size: 15px;
+    }
+    .why-choose-loctel .button button {
+        font-size: 16px;
+    }
+
 }
