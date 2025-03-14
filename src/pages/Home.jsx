@@ -1,16 +1,20 @@
 import React from "react";
-import Empieza from "../components/Empieza/Empieza";
-import Hero from "../components/Hero/Hero";
-import LocatelGold from "../components/Home/LocatelGold/LocatelGold"
+import Empieza from "../components/Empieza";
+import AdditionalBenefit from "../components/Home/AdditionalBenefit";
+import Faq from "../components/Home/Faq/Faq";
+import Hero from "../components/Home/Hero/Hero";
+import InfoTable from "../components/Home/InfoTable";
+import LocatelGold from "../components/Home/LocatelGold";
 
 export default function Home() {
   return (
     <>
-      <Hero></Hero>
-      <LocatelGold></LocatelGold>
-      <Empieza></Empieza>
-     
+      <Hero />
+      <LocatelGold />
+      <InfoTable />
+      <Faq />
+      <AdditionalBenefit />
+      <Empieza />
     </>
-
   );
 }

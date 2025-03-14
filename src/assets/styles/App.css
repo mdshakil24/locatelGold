@@ -1,3 +1,19 @@
+@import "../fonts/font.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-gotham: 'Gotham';
+    --font-helvetica: 'Helvetica Neue LT Std';
+    --primary: var(--primary);
+    --secondary: #df9331;
+}
+
+
 html {
     overflow-x: hidden !important;
     scroll-behavior: smooth;
@@ -8,8 +24,14 @@ body {
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: 'Gotham';
+    font-family: var(--font-helvetica);
     overflow-x: hidden !important;
+    letter-spacing: -0.3px;
+    color: #333333;
+}
+
+.font-gotham {
+    font-family: var(--font-gotham);
 }
 
 h1,
@@ -47,7 +69,7 @@ li {
 }
 
 .container {
-    max-width: 930px;
+    max-width: 950px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
@@ -55,46 +77,44 @@ li {
 }
 
 h1 {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 36px;
     color: #FFFFFF;
     text-transform: inherit;
     line-height: normal;
 }
 
-h2 {
-    font-family: 'Helvetica Neue LT Std';
-    font-weight: 400;
+h2 { 
+    font-weight: 500;
     font-size: 24px;
-    color: #df9331;
+    color: var(--secondary);
     text-transform: inherit;
     line-height: normal;
 }
 
 p {
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 16px;
     color: #333333;
     text-transform: inherit;
     line-height: normal;
 }
 
 .button a,
-.button button {
-    font-family: 'Helvetica Neue LT Std';
-    font-weight: 400;
+.button button { 
+    font-weight: 500;
     font-size: 12px;
     color: #FFFFFF;
     text-transform: inherit;
     line-height: normal;
     background-color: #333333;
     padding: 10px 25px;
-    transition: .3s;
+    transition: all 0.3s ease ;
 }
 
 .button a:hover,
 .button button:hover {
-    background-color: #f2d03a;
+    background-color: var(--primary);
     color: #FFFFFF;
 }
 
@@ -135,7 +155,7 @@ p {
 }
 
 .lg-navbar ul li a:hover {
-    color: #f2d03a;
+    color: var(--primary);
 }
 
 .mobile-menu-icon {
@@ -230,7 +250,6 @@ p {
 }
 
 .lg-empieza-content p {
-    font-family: 'Helvetica Neue LT Std';
     margin-top: 15px;
     margin-bottom: 50px;
 }
@@ -241,7 +260,7 @@ p {
 }
 
 .lg-empieza-content .button a:hover {
-    background-color: #f2d03a;
+    background-color: var(--primary);
     color: #FFFFFF;
 }
 
@@ -264,7 +283,6 @@ p {
 
 .single-top-content p,
 .single-top-content a {
-    font-family: 'Helvetica Neue LT Std';
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
@@ -289,7 +307,6 @@ p {
 }
 
 .footer-bottom-left-content p {
-    font-family: 'Helvetica Neue LT Std';
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
@@ -310,7 +327,7 @@ p {
 
 .footer-bottom-right-content ul li a:hover,
 .single-top-content a:hover {
-    color: #f2d03a;
+    color: var(--primary);
 }
 
 
@@ -326,10 +343,36 @@ p {
 .locatelgold-content {
     text-align: center;
 }
+
 .locatelgold-content p {
-    font-size: 15px;
-    line-height: 1.4;
+	font-size: 16px;
+	line-height: 1.4;
+	letter-spacing: -0.3px;
 }
+.benifit--wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.locatelgold-area .benifit--area {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 30px;
+	gap: 50px 24px;
+}
+
+.locatelgold-area .benifit-single {
+	width: 230px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
+.locatelgold-area .benifit-single p {
+    font-size: 15px;
+    text-align: center;
+}
+
 .locatelgold-content h2 {
     margin-bottom: 40px;
 }
@@ -344,6 +387,7 @@ p {
     font-size: 15px;
     margin-top: 15px;
     line-height: 1.2;
+    text-align: center;
 }
 .locatelgold-bottom-logo {
     display: flex;
@@ -355,6 +399,123 @@ p {
 }
 
 /*===== End Locatel Gold Area Css =====*/
+
+/*===== start coding for infotable Css =====*/
+
+.info--table{
+    background-color: #f8f8f8;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.info--table .pricing-table {
+    width: 100%;
+    max-width: 820px;
+
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #e8e8e8; 
+  }
+  
+  .pricing-table thead {
+    background-color: #f9c742;
+   
+  }
+  
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  th {
+    font-weight: 500;
+    border-bottom: 4px solid #f8f8f8;
+  }
+  th:last-child {
+    width: 190px;
+  }
+  
+  td {
+    border-bottom: 4px solid #f8f8f8;
+  }
+  
+   
+
+
+
+
+
+
+/*===== start additional benifits section =====*/
+
+.additional-benefit{
+    background-color: #f8f8f8;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.additional--wrapper{
+    display: flex;
+    gap: 30px;
+    max-width: 820px;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.additional--wrapper:first-child{
+    flex-shrink: 0;
+}
+.additional--wrapper:last-child{
+   width: 100%;
+
+}
+.additional--wrapper:last-child h2{
+  margin-bottom: 15px;
+}
+.additional--wrapper:last-child h4{
+  margin-bottom: 12px;
+  font-weight: normal;
+  color: #e29e4a;
+  letter-spacing: -0.3px;
+}
+.additional--wrapper:last-child h4{
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #e29e4a;
+  letter-spacing: -0.3px;
+}
+.additional--wrapper:last-child .button{
+  margin-top: 30px;
+}
+
+@media (min-width: 768px){
+    .additional-benefit{ 
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    .additional--wrapper{ 
+        flex-direction: row; 
+        gap: 45px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*===============================************===========================*/
@@ -574,6 +735,7 @@ p {
 }
 
 
+
 @media all and (max-width: 575px) {
     h1 {
         font-size: 30px;
@@ -619,6 +781,9 @@ p {
 
 
 }
+
+
+
 
 
 @media all and (max-width: 450px) {
@@ -675,7 +840,5 @@ p {
 
     .lg-hero-bottom-right-content .button:first-child a {
         margin-right: 10px;
-    }
-
-
+    }  
 }
