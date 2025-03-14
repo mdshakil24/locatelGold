@@ -1,12 +1,12 @@
 @import "../fonts/font.css";
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --font-gotham: 'Gotham';
     --font-helvetica: 'Helvetica Neue LT Std';
     --primary: var(--primary);
@@ -84,7 +84,7 @@ h1 {
     line-height: normal;
 }
 
-h2 { 
+h2 {
     font-weight: 500;
     font-size: 24px;
     color: var(--secondary);
@@ -101,7 +101,7 @@ p {
 }
 
 .button a,
-.button button { 
+.button button {
     font-weight: 500;
     font-size: 12px;
     color: #FFFFFF;
@@ -109,7 +109,9 @@ p {
     line-height: normal;
     background-color: #333333;
     padding: 10px 25px;
-    transition: all 0.3s ease ;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
 }
 
 .button a:hover,
@@ -240,17 +242,20 @@ p {
     background: #333333;
     padding: 60px 0 25px;
 }
+
 .lg-hero-slide-content {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .lg-hero-left-slide {
     flex: 0 0 50%;
 }
-.lg-hero-left-slide h1 { 
-    line-height: 1.2; 
+
+.lg-hero-left-slide h1 {
+    line-height: 1.2;
 }
 
 .lg-hero-left-slide p {
@@ -260,12 +265,13 @@ p {
     font-size: 18px;
     margin: 20px 0 25px;
 }
+
 .lg-hero-right-slide {
     flex: 0 0 50%;
     text-align: center;
 }
 
-.lg-hero-slide-content  .button a {
+.lg-hero-slide-content .button a {
     background-color: #ecbe38;
     color: #333333;
     font-size: 20px;
@@ -274,7 +280,8 @@ p {
     padding: 7px 10px;
     margin-bottom: 25px;
 }
-.lg-hero-slide-content  .button a:hover {
+
+.lg-hero-slide-content .button a:hover {
     background-color: #FFFFFF;
     color: #ecbe38;
 }
@@ -284,13 +291,16 @@ p {
     align-items: center;
 }
 
-.lg-hero-left-btm-img,.lg-hero-left-btm-content ul {
+.lg-hero-left-btm-img,
+.lg-hero-left-btm-content ul {
     display: flex;
     align-items: center;
 }
+
 .lg-hero-left-btm-img img:first-child {
     margin-left: 0;
 }
+
 .lg-hero-left-btm-img img {
     width: 30px;
     height: 30px;
@@ -298,16 +308,20 @@ p {
     object-fit: cover;
     margin-left: -5px;
 }
+
 .lg-hero-left-btm-content {
     margin-left: 10px;
 }
+
 .lg-hero-left-btm-content li {
     color: #fbcc17;
 }
-.lg-hero-left-btm-content p { 
+
+.lg-hero-left-btm-content p {
     font-size: 14px;
     margin: 0;
 }
+
 .lg-hero-right-slide img {
     width: 310px;
     height: auto;
@@ -317,32 +331,39 @@ p {
     background-color: #f2d03a;
     padding: 40px 0;
 }
+
 .lg-hero-bottom-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.lg-hero-bottom-content p { 
+
+.lg-hero-bottom-content p {
     font-size: 18px;
 }
+
 .lg-hero-bottom-right-content {
     display: flex;
     align-items: center;
 }
+
 .lg-hero-bottom-right-content .button a {
     background-color: #333333;
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .lg-hero-bottom-right-content .button a:hover {
     background: #ffffff;
     color: #333333;
 }
+
 .lg-hero-bottom-right-content .button:first-child a {
     background-color: #FFFFFF;
     color: #333333;
     margin-right: 20px;
 }
+
 .lg-hero-bottom-right-content .button:first-child a:hover {
     background-color: #333333;
     color: #ffffff;
@@ -458,34 +479,38 @@ p {
     background: #FFFFFF;
     padding: 60px 0;
 }
+
 .locatelgold-content {
     text-align: center;
 }
 
 .locatelgold-content p {
-	font-size: 16px;
-	line-height: 1.4;
-	letter-spacing: -0.3px;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: -0.3px;
 }
-.benifit--wrapper{
+
+.benifit--wrapper {
     max-width: 1000px;
     margin: 0 auto;
 }
+
 .locatelgold-area .benifit--area {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	padding-top: 30px;
-	gap: 50px 24px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    gap: 50px 24px;
 }
 
 .locatelgold-area .benifit-single {
-	width: 230px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 15px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
+
 .locatelgold-area .benifit-single p {
     font-size: 15px;
     text-align: center;
@@ -494,33 +519,125 @@ p {
 .locatelgold-content h2 {
     margin-bottom: 40px;
 }
+
 .single-locatel-gold {
     margin-top: 35px;
 }
+
 .single-locatel-gold img {
     height: 50px;
     width: auto;
 }
+
 .single-locatel-gold p {
     font-size: 15px;
     margin-top: 15px;
     line-height: 1.2;
     text-align: center;
 }
+
 .locatelgold-bottom-logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .locatelgold-bottom-logo img {
     margin: 0 10px;
 }
 
 /*===== End Locatel Gold Area Css =====*/
 
-/*===== start coding for infotable Css =====*/
 
-.info--table{
+/*===== Start Locatel Gold Area Css =====*/
+.why-choose-lifemiles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+
+.why-choose-text-content {
+    text-align: center;
+}
+
+.why-choose-loctel {
+    padding: 60px 0;
+}
+
+.why-choose-loctel .button button {
+    font-family: 'Helvetica Neue LT Std';
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 40px;
+}
+
+.why-choose-loctel .button {
+    text-align: center;
+}
+
+.why-choose-loctel .button button:hover {
+    color: #333333;
+}
+
+.why-choose-content .subtitle {
+    font-family: 'Helvetica Neue LT Std';
+    font-weight: 400;
+    font-size: 16px;
+    color: #e29e4a;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.why-choose-content .description {
+    width: 85%;
+    margin: 0 auto;
+    line-height: 1.25;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cards-container .card {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.image-container img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+}
+
+.card-text-container {
+    background-color: #ffc44c;
+    padding: 28px 8px 20px;
+    margin-top: -15px;
+}
+
+.card-text-container h3,.card-text-container p {
+    font-family: 'Helvetica Neue LT Std';
+    font-weight: 500;
+    font-size: 16px;
+}
+.card-text-container p {
+    font-weight: 400;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+/*===== End Locatel Gold Area Css =====*/
+
+/*===== Start coding for infotable Css =====*/
+
+.info--table {
     background-color: #f8f8f8;
     padding-top: 60px;
     padding-bottom: 40px;
@@ -532,72 +649,78 @@ p {
 
     border-collapse: collapse;
     margin: 20px auto;
-    background-color: #e8e8e8; 
-  }
-  
-  .pricing-table thead {
+    background-color: #e8e8e8;
+}
+
+.pricing-table thead {
     background-color: #f9c742;
-   
-  }
-  
-  th,
-  td {
+
+}
+
+th,
+td {
     padding: 12px;
     text-align: left;
     font-size: 16px;
-  }
-  
-  th {
+}
+
+th {
     font-weight: 500;
     border-bottom: 4px solid #f8f8f8;
-  }
-  th:last-child {
+}
+
+th:last-child {
     width: 190px;
-  }
-  
-  td {
+}
+
+td {
     border-bottom: 4px solid #f8f8f8;
-  }
-  
-   
+}
 
 
+/*===== End coding for infotable Css =====*/
 
-  .faq--section{
+/*===== Start FAQ Section Css =====*/
+.faq--section {
     padding-top: 60px;
     padding-bottom: 36px;
 }
-.faq--header{
+
+.faq--header {
     margin-bottom: 48px;
- }
+}
+
 .faq--header h2 {
     text-align: center;
     font-size: 24px;
     font-weight: medium;
     color: #df9331;
     margin-bottom: 10px;
- }
-.faq--header p{ 
-  font-size: 16px;
-  color: #df9331;
-  text-align: center;
 }
-.faq-container{
+
+.faq--header p {
+    font-size: 16px;
+    color: #df9331;
+    text-align: center;
+}
+
+.faq-container {
     max-width: 820px;
     margin: 0 auto;
 }
- 
+
+/*===== End FAQ Section Css =====*/
 
 
+/*===== Start additional benifits section =====*/
 
-/*===== start additional benifits section =====*/
-
-.additional-benefit{
+.additional-benefit {
     background-color: #f8f8f8;
     padding-top: 30px;
     padding-bottom: 40px;
 }
-.additional--wrapper{
+
+.additional--wrapper {
     display: flex;
     gap: 30px;
     max-width: 820px;
@@ -606,39 +729,45 @@ p {
     flex-direction: column;
 }
 
-.additional--wrapper:first-child{
+.additional--wrapper:first-child {
     flex-shrink: 0;
 }
-.additional--wrapper:last-child{
-   width: 100%;
+
+.additional--wrapper:last-child {
+    width: 100%;
 
 }
-.additional--wrapper:last-child h2{
-  margin-bottom: 15px;
-}
-.additional--wrapper:last-child h4{
-  margin-bottom: 12px;
-  font-weight: normal;
-  color: #e29e4a;
-  letter-spacing: -0.3px;
-}
-.additional--wrapper:last-child h4{
-  margin-bottom: 10px;
-  font-weight: normal;
-  color: #e29e4a;
-  letter-spacing: -0.3px;
-}
-.additional--wrapper:last-child .button{
-  margin-top: 30px;
+
+.additional--wrapper:last-child h2 {
+    margin-bottom: 15px;
 }
 
-@media (min-width: 768px){
-    .additional-benefit{ 
+.additional--wrapper:last-child h4 {
+    margin-bottom: 12px;
+    font-weight: normal;
+    color: #e29e4a;
+    letter-spacing: -0.3px;
+}
+
+.additional--wrapper:last-child h4 {
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #e29e4a;
+    letter-spacing: -0.3px;
+}
+
+.additional--wrapper:last-child .button {
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .additional-benefit {
         padding-top: 40px;
         padding-bottom: 80px;
     }
-    .additional--wrapper{ 
-        flex-direction: row; 
+
+    .additional--wrapper {
+        flex-direction: row;
         gap: 45px;
     }
 }
@@ -691,6 +820,9 @@ p {
     .lg-empieza-area {
         padding: 180px 0 220px;
     }
+    .card-text-container h3, .card-text-container p {
+        font-size: 15px;
+    }
 
 }
 
@@ -720,6 +852,7 @@ p {
         transition: .3s;
         z-index: 999;
     }
+
     .lg-navbar ul.showMenu {
         visibility: visible;
         opacity: 1;
@@ -864,14 +997,23 @@ p {
     .single-locatel-gold p {
         font-size: 12px;
     }
+
     .single-locatel-gold img {
         height: 40px;
     }
+
     .locatelgold-content p {
         font-size: 14px;
     }
+
     .locatelgold-content h2 {
         margin-bottom: 25px;
+    }
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .additional--wrapper {
+        text-align: center;
     }
 
 }
@@ -916,8 +1058,25 @@ p {
         padding: 25px 0;
     }
 
-    .locatelgold-area {
+    .locatelgold-area,.why-choose-loctel {
         padding: 45px 0;
+    }
+    .faq--section {
+        padding-top: 45px;
+    }
+    .cards-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cards-container .card {
+        margin-top: 20px;
+    }
+    .why-choose-content .description {
+        width: 100%;
+    }
+    .why-choose-content .subtitle {
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
 
@@ -940,16 +1099,20 @@ p {
     p {
         font-size: 14px;
     }
+
     .single-locatel-gold {
         flex: 0 0 50%;
         margin-top: 25px;
     }
+
     .locatelgold-content h2 {
         margin-bottom: 18px;
     }
+
     .locatelgold-area {
         padding: 35px 0;
     }
+
     .lg-logo img {
         width: 150px;
     }
@@ -982,5 +1145,10 @@ p {
 
     .lg-hero-bottom-right-content .button:first-child a {
         margin-right: 10px;
-    }  
+    }
+    .additional--wrapper img {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
 }
