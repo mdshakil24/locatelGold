@@ -24,9 +24,9 @@ const Hero = () => {
               </div>
               <div className="lg-hero-left-bottom-content">
                 <div className="lg-hero-left-btm-img">
-                  <img src="/public/home/1.png" alt="image" />
-                  <img src="/public/home/1.png" alt="image" />
-                  <img src="/public/home/1.png" alt="image" />
+                  <img src="/home/1.png" alt="image" />
+                  <img src="/home/1.png" alt="image" />
+                  <img src="/home/1.png" alt="image" />
                 </div>
                 <div className="lg-hero-left-btm-content">
                   <ul>
@@ -51,7 +51,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="lg-hero-right-slide">
-              <img src="/public/home/hero1.png" alt="Image" />
+              <img src="/home/hero1.png" alt="Image" />
             </div>
           </div><div className="lg-hero-slide-content">
             <div className="lg-hero-left-slide">
@@ -69,9 +69,9 @@ const Hero = () => {
               </div>
               <div className="lg-hero-left-bottom-content">
                 <div className="lg-hero-left-btm-img">
-                  <img src="/public/home/1.png" alt="image" />
-                  <img src="/public/home/1.png" alt="image" />
-                  <img src="/public/home/1.png" alt="image" />
+                  <img src="/home/1.png" alt="image" />
+                  <img src="/home/1.png" alt="image" />
+                  <img src="/home/1.png" alt="image" />
                 </div>
                 <div className="lg-hero-left-btm-content">
                   <ul>
@@ -96,7 +96,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="lg-hero-right-slide">
-              <img src="/public/home/hero1.png" alt="Image" />
+              <img src="/home/hero1.png" alt="Image" />
             </div>
           </div>
           </SwiperComponent>

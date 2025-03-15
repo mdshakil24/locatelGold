@@ -6,7 +6,7 @@ const Beneficios = () => {
       <div className="container">
         <div className="lg-beneficios-heading">
           <h2>Beneficios de Locatel ATIEMPO</h2>
-          <img src="/public/home-two/vsm.png" alt="image" />
+          <img src="/home-two/vsm.png" alt="image" />
           <p>
             Locatel A Tiempo es una membresía diseñada para que tus familiares
             accedan a consultas médicas ilimitadas 24/7 desde cualquier lugar.
@@ -19,7 +19,7 @@ const Beneficios = () => {
         <div className="lg-beneficios-content">
           {/* single item */}
           <div className="lg-single-beneficios-content">
-            <img src="/public/home-two/icons/i1.png" alt="Icon" />
+            <img src="/home-two/icons/i1.png" alt="Icon" />
             <div>
               <h3 className="title">Consultas Médicas Ilimitadas 24/7: </h3>
               <p className="description">
@@ -31,7 +31,7 @@ const Beneficios = () => {
 
           {/* single item */}
           <div className="lg-single-beneficios-content">
-            <img src="/public/home-two/icons/i2.png" alt="Icon" />
+            <img src="/home-two/icons/i2.png" alt="Icon" />
             <div>
               <h3 className="title">Recordatorios Personalizados: </h3>
               <p className="description">
@@ -43,7 +43,7 @@ const Beneficios = () => {
 
           {/* single item */}
           <div className="lg-single-beneficios-content">
-            <img src="/public/home-two/icons/i3.png" alt="Icon" />
+            <img src="/home-two/icons/i3.png" alt="Icon" />
             <div>
               <h3 className="title">Especialidades Disponibles: </h3>
               <p className="description">
@@ -55,7 +55,7 @@ const Beneficios = () => {
 
           {/* single item */}
           <div className="lg-single-beneficios-content">
-            <img src="/public/home-two/icons/i4.png" alt="Icon" />
+            <img src="/home-two/icons/i4.png" alt="Icon" />
             <div>
               <h3 className="title">Integración Familiar:</h3>
               <p className="description">
@@ -68,7 +68,7 @@ const Beneficios = () => {
 
           {/* single item */}
           <div className="lg-single-beneficios-content">
-            <img src="/public/home-two/icons/i5.png" alt="Icon" />
+            <img src="/home-two/icons/i5.png" alt="Icon" />
             <div>
               <h3 className="title">Historial Médico Digital:</h3>
               <p className="description">

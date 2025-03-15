@@ -376,7 +376,7 @@ p {
 /*===== Start Empieza Area Css =====*/
 
 .lg-empieza-area {
-    background: url('/public/em.png');
+    background: url('/em.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 250px 0 315px;
@@ -701,6 +701,15 @@ p {
     align-items: center;
 }
 
+@media (min-width: 768px) {
+    .single-lg-plans-listing:nth-child(2) {
+        padding-left: 15px;
+    }
+    .single-lg-plans-listing:nth-child(3) {
+        padding-left: 10px;
+    }
+}
+
 .lg-plans-listing span {
     font-family: 'Helvetica Neue LT Std';
     font-size: 14px;
@@ -712,7 +721,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 15px;
+    flex-shrink: 0;
 }
 
 .lg-plans-listing p {

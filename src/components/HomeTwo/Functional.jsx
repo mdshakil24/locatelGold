@@ -50,10 +50,10 @@ const Functional = () => {
           </p>
           <div className="lg-functional-buttons">
             <a href="#">
-              <img src="/public/home-two/gp.png" alt="Image" />
+              <img src="/home-two/gp.png" alt="Image" />
             </a>
             <a href="#">
-              <img src="/public/home-two/as.png" alt="Image" />
+              <img src="/home-two/as.png" alt="Image" />
             </a>
           </div>
         </div>

@@ -1,12 +1,12 @@
 // SwiperComponent.js
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
+import "swiper/css";
 
 // Import Swiper's modules
-import { Pagination, Autoplay } from 'swiper/modules';
+import { Pagination, Autoplay } from "swiper/modules";
 
 // Import necessary modules for Swiper
 const SwiperComponent = ({ children }) => {

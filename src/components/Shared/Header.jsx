@@ -10,7 +10,7 @@ export default function Header() {
         <div className="header-content">
           <div className="lg-logo">
             <Link to="/">
-              <img src="/public/logo/logo.png" alt="Logo" />
+              <img src="/logo/logo.png" alt="Logo" />
             </Link>
           </div>
 

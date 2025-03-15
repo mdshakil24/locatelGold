@@ -1,21 +1,21 @@
 const sectionData = [
   {
     id: 101,
-    image: "/public/home/wh1.png",
+    image: "/home/wh1.png",
     title: "Salud sin límites, sin esperas",
     description:
       "Accede a consultas médicas ilimitadas 24/7, sin largas filas ni demoras. Desde donde estés, un especialista estará disponible para ti.",
   },
   {
     id: 102,
-    image: "/public/home/wh2.png",
+    image: "/home/wh2.png",
     title: "Beneficios exclusivos en cada compra",
     description:
       "Disfruta de descuentos en tiendas Locatel, laboratorios clínicos y el alquiler de equipos médicos sin depósito en garantía.",
   },
   {
     id: 103,
-    image: "/public/home/wh3.png",
+    image: "/home/wh3.png",
     title: "Más bienestar, más tranquilidad",
     description:
       "Desde asesoría nutricional hasta asistencia médica en viajes, Locatel Gold te ofrece un respaldo integral para que vivas con total confianza.",
@@ -28,7 +28,7 @@ const WhyChooseLocatel = () => {
       <div className="why-choose-lifemiles">
         <p>
           Próximamente: Alianza con{" "}
-          <img src="/public/home/lifemiles.png" alt="lifemiles" />
+          <img src="/home/lifemiles.png" alt="lifemiles" />
         </p>
       </div>
       <div className="why-choose-loctel">
