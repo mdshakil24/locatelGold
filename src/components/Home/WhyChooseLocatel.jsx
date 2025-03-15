@@ -1,70 +1,77 @@
-
-
 const sectionData = [
-    {
-        id: 101,
-        image: "/public/home/wh1.png",
-        title: "Salud sin límites, sin esperas",
-        description:
-            "Accede a consultas médicas ilimitadas 24/7, sin largas filas ni demoras. Desde donde estés, un especialista estará disponible para ti.",
-    },
-    {
-        id: 102,
-        image: "/public/home/wh2.png",
-        title: "Beneficios exclusivos en cada compra",
-        description:
-            "Disfruta de descuentos en tiendas Locatel, laboratorios clínicos y el alquiler de equipos médicos sin depósito en garantía.",
-    },
-    {
-        id: 103,
-        image: "/public/home/wh3.png",
-        title: "Más bienestar, más tranquilidad",
-        description:
-            "Desde asesoría nutricional hasta asistencia médica en viajes, Locatel Gold te ofrece un respaldo integral para que vivas con total confianza.",
-    },
+  {
+    id: 101,
+    image: "/public/home/wh1.png",
+    title: "Salud sin límites, sin esperas",
+    description:
+      "Accede a consultas médicas ilimitadas 24/7, sin largas filas ni demoras. Desde donde estés, un especialista estará disponible para ti.",
+  },
+  {
+    id: 102,
+    image: "/public/home/wh2.png",
+    title: "Beneficios exclusivos en cada compra",
+    description:
+      "Disfruta de descuentos en tiendas Locatel, laboratorios clínicos y el alquiler de equipos médicos sin depósito en garantía.",
+  },
+  {
+    id: 103,
+    image: "/public/home/wh3.png",
+    title: "Más bienestar, más tranquilidad",
+    description:
+      "Desde asesoría nutricional hasta asistencia médica en viajes, Locatel Gold te ofrece un respaldo integral para que vivas con total confianza.",
+  },
 ];
 
 const WhyChooseLocatel = () => {
-    return (
-        <section className="why-choose-locatel-area">
-            <div className="why-choose-lifemiles">
-                <p>Próximamente: Alianza con <img src="/public/home/lifemiles.png" alt="lifemiles" /></p>
+  return (
+    <section className="why-choose-locatel-area">
+      <div className="why-choose-lifemiles">
+        <p>
+          Próximamente: Alianza con{" "}
+          <img src="/public/home/lifemiles.png" alt="lifemiles" />
+        </p>
+      </div>
+      <div className="why-choose-loctel">
+        <div className="container">
+          <div className="why-choose-content">
+            <div className="why-choose-text-content">
+              <h2>¿Por qué elegir Locatel Gold?</h2>
+              <p className="subtitle">
+                Más que una membresía, un nuevo nivel de bienestar
+              </p>
+              <p className="description">
+                Locatel Gold es la suscripción que te brinda tranquilidad con
+                acceso ilimitado a servicios médicos, descuentos en productos de
+                salud y asistencia personalizada para que tú y tu familia vivan
+                mejor.
+              </p>
             </div>
-            <div className="why-choose-loctel">
-                <div className="container">
-                    <div className="why-choose-content">
-                        <div className="why-choose-text-content">
-                            <h2>¿Por qué elegir Locatel Gold?</h2>
-                            <p className="subtitle">Más que una membresía, un nuevo nivel de bienestar</p>
-                            <p className="description">
-                                Locatel Gold es la suscripción que te brinda tranquilidad con acceso ilimitado a servicios médicos, descuentos en productos de salud y asistencia personalizada para que tú y tu familia vivan mejor.
-                            </p>
-                        </div>
 
-                        <div className="cards-container">
-                            {sectionData.map((item) => (
-                                <div key={item.id} className="card">
-                                    <div className="image-container">
-                                        <img src={item.image} alt={item.title} />
-                                    </div>
-                                    <div className="card-text-container">
-                                        <h3>{item.title}</h3>
-                                        <p>{item.description}</p>
-                                    </div>
-
-                                </div>
-                            ))}
-                        </div>
-                        <div className="button">
-                            <button >
-                                Hazte miembro de Locatel Gold hoy y empieza a disfrutar de sus beneficios
-                            </button>
-                        </div>
-                    </div>
+            <div className="cards-container">
+              {sectionData.map((item) => (
+                <div key={item.id} className="card">
+                  <div className="image-container">
+                    <img src={item.image} alt={item.title} />
+                  </div>
+                  <div className="card-text-container">
+                    <h3>{item.title}</h3>
+                    <p>{item.description}</p>
+                  </div>
                 </div>
+              ))}
             </div>
-        </section>
-    );
+            <div className="why-choose-alert">
+              <p>
+                {" "}
+                Hazte miembro de Locatel Gold hoy y empieza a disfrutar de sus
+                beneficios
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default WhyChooseLocatel;

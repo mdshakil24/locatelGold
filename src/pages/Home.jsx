@@ -6,6 +6,7 @@ import Hero from "../components/Home/Hero";
 import InfoTable from "../components/Home/InfoTable";
 import LocatelGold from "../components/Home/LocatelGold";
 import WhyChooseLocatel from "../components/Home/WhyChooseLocatel"
+import ElegirLocatel from "../components/Home/ElegirLocatel";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <LocatelGold />
       <WhyChooseLocatel />
+       <ElegirLocatel />
       <InfoTable />
       <Faq />
       <AdditionalBenefit />

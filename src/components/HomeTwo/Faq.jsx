@@ -25,7 +25,7 @@ const Faq = () => {
   };
 
   return (
-    <section className="faq--section">
+    <section className="faq--section faq-two">
       <div className="container">
         <div className="faq--header">
           <h2>Preguntas Frecuentes</h2>

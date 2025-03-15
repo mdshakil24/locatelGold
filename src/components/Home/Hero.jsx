@@ -1,4 +1,5 @@
 import { IoMdStar } from "react-icons/io";
+import SwiperComponent from "../SwiperComponent";
 
 const Hero = () => {
   return (
@@ -6,7 +7,53 @@ const Hero = () => {
       {/*===== Start Hero Slide Area =====*/}
       <div className="lg-hero-slide-area">
         <div className="container">
-          <div className="lg-hero-slide-content">
+          <SwiperComponent>
+            <div className="lg-hero-slide-content">
+            <div className="lg-hero-left-slide">
+              <h1 className="font-gotham">
+                Salud sin límites <br />
+                para ti y tu familia <br />
+                Disponible 24/7{" "}
+              </h1>
+              <p className="font-gotham">
+                Accede a consultas médicas ilimitadas, descuentos exclusivos,
+                acumulación de puntos y mucho más con Locatel Gold.
+              </p>
+              <div className="button">
+                <a href="#">¡Afíliate a Locatel Gold!</a>
+              </div>
+              <div className="lg-hero-left-bottom-content">
+                <div className="lg-hero-left-btm-img">
+                  <img src="/public/home/1.png" alt="image" />
+                  <img src="/public/home/1.png" alt="image" />
+                  <img src="/public/home/1.png" alt="image" />
+                </div>
+                <div className="lg-hero-left-btm-content">
+                  <ul>
+                    <li>
+                      <IoMdStar />
+                    </li>
+                    <li>
+                      <IoMdStar />
+                    </li>
+                    <li>
+                      <IoMdStar />
+                    </li>
+                    <li>
+                      <IoMdStar />
+                    </li>
+                    <li>
+                      <IoMdStar />
+                    </li>
+                  </ul>
+                  <p>Más de 2000 usuarios activos</p>
+                </div>
+              </div>
+            </div>
+            <div className="lg-hero-right-slide">
+              <img src="/public/home/hero1.png" alt="Image" />
+            </div>
+          </div><div className="lg-hero-slide-content">
             <div className="lg-hero-left-slide">
               <h1 className="font-gotham">
                 Salud sin límites <br />
@@ -52,6 +99,7 @@ const Hero = () => {
               <img src="/public/home/hero1.png" alt="Image" />
             </div>
           </div>
+          </SwiperComponent>
         </div>
       </div>
       {/*===== End Hero Slide Area =====*/}
