@@ -9,16 +9,14 @@ const Hero = () => {
           <div className="lg-hero-slide-content">
             <div className="lg-hero-left-slide">
               <h1 className="font-gotham">
-                Salud sin límites <br />
-                para ti y tu familia <br />
-                Disponible 24/7{" "}
+              Atención Médica 24/7
+              para tus Seres Queridos
               </h1>
               <p className="font-gotham">
-                Accede a consultas médicas ilimitadas, descuentos exclusivos,
-                acumulación de puntos y mucho más con Locatel Gold.
+              Con Locatel ATIEMPO, tus familiares acceden a consultas médicas ilimitadas desde la comodidad de su hogar.
               </p>
               <div className="button">
-                <a href="#">¡Afíliate a Locatel Gold!</a>
+                <a href="#">Afíliate Ahora</a>
               </div>
               <div className="lg-hero-left-bottom-content">
                 <div className="lg-hero-left-btm-img">
@@ -49,7 +47,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="lg-hero-right-slide">
-              <img src="/public/home/hero1.png" alt="Image" />
+              <img src="/public/home-two/hero.png" alt="Image" />
             </div>
           </div>
         </div>
