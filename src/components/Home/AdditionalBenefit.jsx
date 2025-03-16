@@ -2,7 +2,7 @@ import React from "react";
 
 export default function AdditionalBenefit() {
   return (
-    <section className="additional-benefit">
+    <section className="additional-benefit" id="familiar">
       <div className="container">
         <div className="additional--wrapper">
           <div>

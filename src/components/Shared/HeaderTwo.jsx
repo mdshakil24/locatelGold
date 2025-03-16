@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function Header() {
+export default function HeaderTwo() {
   const [humberOpen, setHumberOpen] = useState(false);
   const [isOpenMenu, setOpenMenu] = useState(false);
   return (
@@ -20,13 +20,10 @@ export default function Header() {
                 <a href="#beneficios">Beneficios</a>
               </li>
               <li>
-                <a href="#locatel">¿Qué es Locatel Gold?</a>
+                <a href="#locatel">¿Cómo funciona?</a>
               </li>
               <li>
                 <a href="#planes">Planes</a>
-              </li>
-              <li>
-                <a href="#familiar">Afiliación familiar</a>
               </li>
             </ul>
           </nav>

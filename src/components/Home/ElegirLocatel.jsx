@@ -1,6 +1,6 @@
 const ElegirLocatel = () => {
   return (
-    <section className="elegir-locatel-area ">
+    <section className="elegir-locatel-area " id="planes">
       <div className="container mx-auto">
         <div className="why-choose-text-content">
           <h2>Planes y Tarifas</h2>

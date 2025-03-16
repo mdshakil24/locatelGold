@@ -1,19 +1,19 @@
 import React from "react";
-import { FaInstagram, FaFacebookF, FaTiktok, FaYoutube  } from "react-icons/fa";
-import { FaThreads, FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
+import { FaLinkedinIn, FaThreads, FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
     <footer className="lg-footer-area">
       <div className="container">
         <div className="lg-footer-content">
-
           {/*===== Start footer top content =====*/}
           <div className="lg-footer-top-content">
             {/* single item */}
             <div className="single-top-content">
-              <p>Afíliate hoy y accede a un mundo
-                de bienestar con Locatel Gold</p>
+              <p>
+                Afíliate hoy y accede a un mundo de bienestar con Locatel Gold
+              </p>
             </div>
             {/* single item */}
 
@@ -47,20 +47,43 @@ export default function Footer() {
             </div>
             <div className="footer-bottom-right-content">
               <ul>
-                <li><a href="#">{<FaInstagram />}</a></li>
-                <li><a href="#">{<FaFacebookF />}</a></li>
-                <li><a href="#">{<FaTiktok />}</a></li>
-                <li><a href="#">{<FaThreads />}</a></li>
-                <li><a href="#">{<FaXTwitter />}</a></li>
-                <li><a href="#">{<FaYoutube />}</a></li>
-                <li><a href="#">{<FaLinkedinIn />}</a></li>
-                
+                <li>
+                  <a href="ttps://www.instagram.com/locatelcol/">
+                    {<FaInstagram />}
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/LocatelColombia">
+                    {<FaFacebookF />}
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.tiktok.com/@locatelcol">
+                    {<FaTiktok />}
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.threads.net/@locatelcol">
+                    {<FaThreads />}
+                  </a>
+                </li>
+                <li>
+                  <a href="https://x.com/LocatelCo">{<FaXTwitter />}</a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/@locatelcolombia178">
+                    {<FaYoutube />}
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/company/locatel-colombia/">
+                    {<FaLinkedinIn />}
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
           {/*===== End footer bottom content =====*/}
-
-
         </div>
       </div>
     </footer>

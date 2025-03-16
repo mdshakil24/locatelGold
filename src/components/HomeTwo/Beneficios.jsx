@@ -2,7 +2,7 @@ import React from "react";
 
 const Beneficios = () => {
   return (
-    <section className="lg-beneficios-area">
+    <section className="lg-beneficios-area" id="beneficios">
       <div className="container">
         <div className="lg-beneficios-heading">
           <h2>Beneficios de Locatel ATIEMPO</h2>
@@ -72,7 +72,7 @@ const Beneficios = () => {
             <div>
               <h3 className="title">Historial Médico Digital:</h3>
               <p className="description">
-              Consulta y gestión del historial médico en línea.
+                Consulta y gestión del historial médico en línea.
               </p>
             </div>
           </div>

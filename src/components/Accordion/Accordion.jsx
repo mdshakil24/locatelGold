@@ -7,7 +7,9 @@ const Accordion = ({ title, content, isOpen, onToggle }) => {
 
   useEffect(() => {
     if (contentRef.current) {
-      setHeight(isOpen ? `${contentRef.current.scrollHeight}px` : "0px");
+      requestAnimationFrame(() => {
+        setHeight(isOpen ? `${contentRef.current.scrollHeight}px` : "0px");
+      });
     }
   }, [isOpen]);
 

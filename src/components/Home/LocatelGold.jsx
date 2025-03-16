@@ -2,7 +2,7 @@ import React from "react";
 
 const LocatelGold = () => {
   return (
-    <section className="locatelgold-area">
+    <section className="locatelgold-area" id="locatel">
       <div className="container">
         <div className="locatelgold-content">
           <h2>Locatel Gold: Salud y bienestar sin límites</h2>

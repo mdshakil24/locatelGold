@@ -24,7 +24,7 @@ const sectionData = [
 
 const WhyChooseLocatel = () => {
   return (
-    <section className="why-choose-locatel-area">
+    <section className="why-choose-locatel-area" id="beneficios">
       <div className="why-choose-lifemiles">
         <p>
           Próximamente: Alianza con{" "}
@@ -61,11 +61,12 @@ const WhyChooseLocatel = () => {
               ))}
             </div>
             <div className="why-choose-alert">
-              <p>
-                {" "}
-                Hazte miembro de Locatel Gold hoy y empieza a disfrutar de sus
-                beneficios
-              </p>
+              <div className="button">
+                <a href="#">
+                  Hazte miembro de Locatel Gold hoy y empieza a disfrutar de sus
+                  beneficios
+                </a>
+              </div>
             </div>
           </div>
         </div>

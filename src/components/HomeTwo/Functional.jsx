@@ -1,6 +1,6 @@
 const Functional = () => {
   return (
-    <section className="lg-functional-area">
+    <section className="lg-functional-area" id="locatel">
       <div className="lg-functional-heading">
         <h2>¿Cómo Funciona Locatel ATIEMPO?</h2>
       </div>

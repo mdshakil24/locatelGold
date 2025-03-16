@@ -8,15 +8,52 @@ const Faq = () => {
     {
       title: "¿Cómo funciona Locatel Gold?",
       content:
-        "Locatel Gold es una membresía exclusiva que te ofrece telemedicina ilimitada 24/7, descuentos en tiendas Locatel, asesoría nutricional, acumulación de puntos y asistencia médica en viajes, entre otros beneficios. Es la forma más fácil de acceder a la salud y el bienestar sin complicaciones. ",
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat, autem similique eos dignissimos, fuga perferendis ut sint deserunt eius, veritatis dicta? Porro architecto reiciendis consectetur voluptatum provident veritatis dignissimos. ",
     },
     {
       title: "¿Cuántas consultas médicas puedo tener?",
-      content: "Consulta ilimitada con telemedicina 24/7.",
+      content:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat, autem similique eos dignissimos, fuga perferendis ut sint deserunt eius, veritatis dicta? Porro architecto reiciendis consectetur voluptatum provident veritatis dignissimos.",
     },
     {
       title: "¿Puedo afiliar a mis familiares?",
-      content: "Sí, puedes afiliar a miembros de tu familia.",
+      content:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat, autem similique eos dignissimos, fuga perferendis ut sint deserunt eius, veritatis dicta? Porro architecto reiciendis consectetur voluptatum provident veritatis dignissimos.",
+    },
+    {
+      title: "¿Cómo accedo a los descuentos en tiendas Locatel?",
+      content:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat, autem similique eos dignissimos, fuga perferendis ut sint deserunt eius, veritatis dicta? Porro architecto reiciendis consectetur voluptatum provident veritatis dignissimos.",
+    },
+    {
+      title: "¿Cómo se acumulan los puntos SoyLocatel?",
+      content:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat, autem similique eos dignissimos, fuga perferendis ut sint deserunt eius, veritatis dicta? Porro architecto reiciendis consectetur voluptatum provident veritatis dignissimos.",
+    },
+    {
+      title: "¿En qué consiste la asistencia médica viajera?",
+      content:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat, autem similique eos dignissimos, fuga perferendis ut sint deserunt eius, veritatis dicta? Porro architecto reiciendis consectetur voluptatum provident veritatis dignissimos.",
+    },
+    {
+      title: "¿Cuáles laboratorios están incluidos en los descuentos?",
+      content:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat, autem similique eos dignissimos, fuga perferendis ut sint deserunt eius, veritatis dicta? Porro architecto reiciendis consectetur voluptatum provident veritatis dignissimos.",
+    },
+    {
+      title: "¿Cómo puedo acceder a los descuentos en laboratorios clínicos?",
+      content:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat, autem similique eos dignissimos, fuga perferendis ut sint deserunt eius, veritatis dicta? Porro architecto reiciendis consectetur voluptatum provident veritatis dignissimos.",
+    },
+    {
+      title: "¿Puedo cambiar mi plan después de contratarlo?",
+      content:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat, autem similique eos dignissimos, fuga perferendis ut sint deserunt eius, veritatis dicta? Porro architecto reiciendis consectetur voluptatum provident veritatis dignissimos..",
+    },
+    {
+      title: "¿Qué tipo de atención incluye el plan Premium?",
+      content:
+        " Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat, autem similique eos dignissimos, fuga perferendis ut sint deserunt eius, veritatis dicta? Porro architecto reiciendis consectetur voluptatum provident veritatis dignissimos.",
     },
   ];
 
